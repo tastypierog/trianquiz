@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/trianquiz/static/css/main.a474275b.css",
+    "main.js": "/trianquiz/static/js/main.3c898aad.js",
+    "index.html": "/trianquiz/index.html",
+    "main.a474275b.css.map": "/trianquiz/static/css/main.a474275b.css.map",
+    "main.3c898aad.js.map": "/trianquiz/static/js/main.3c898aad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a474275b.css",
+    "static/js/main.3c898aad.js"
+  ]
+}

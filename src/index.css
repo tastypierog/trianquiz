@@ -1,0 +1,131 @@
+@import "https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #2b67b0;
+  min-height: 100vh;
+}
+
+.App h1 {
+  padding: 15px 45px;
+}
+
+.question-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+
+  padding: 15px;
+}
+
+.question-box-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+  box-shadow: 0 18px 45px 0 rgba(13, 13, 13, 0.26);
+  margin: 15px;
+  min-width: 40%;
+  min-height: 40%;
+  min-height: 60%;
+  max-height: 60%;
+  color: #494949;
+}
+
+.question-box img {
+  max-height: 250px;
+  width: auto;
+}
+
+.answer-box {
+  padding: 25px;
+
+  text-align: center;
+}
+
+.answer-box p {
+  padding: 15px 45px;
+  font-size: 25px;
+  box-shadow: 0 25px 45px 0 rgba(52, 83, 126, 0.42);
+}
+.answers {
+  display: grid;
+  margin-top: 25px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.answers p {
+  font-size: 18px;
+  padding: 15px 45px;
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 0 18px 45px 0 rgba(13, 13, 13, 0.26);
+  transition: 0.1s;
+}
+
+.answers p:hover {
+  color: #ffffff;
+  background: linear-gradient(
+    63deg,
+    rgba(43, 103, 176, 1) 0%,
+    rgba(43, 103, 176, 0.5424370431766457) 100%
+  );
+  box-shadow: 0 18px 45px 0 rgba(13, 13, 13, 0.515);
+  cursor: pointer;
+}
+
+.results {
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.results h2 {
+  font-size: 32px;
+}
+
+.results h3 {
+  font-size: 26px;
+  color: #2b67b0eb;
+}
+
+.results button {
+  margin-top: 15px;
+  background: none;
+  border: none;
+}
+
+.results img {
+  width: 48px;
+  height: 48px;
+}
+
+.results img:hover {
+  cursor: pointer;
+}
+
+.jonasz {
+  position: absolute;
+  color: #5858585d;
+  font-size: 16px;
+  bottom: 15px;
+  right: 15px;
+}
